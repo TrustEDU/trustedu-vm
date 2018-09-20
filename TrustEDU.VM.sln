@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrustEDU.VM", "TrustEDU.VM\TrustEDU.VM.csproj", "{1197DFF2-B068-41C1-9452-AB923E92EFF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrustEDU.VM.Tests", "TrustEDU.VM.Tests\TrustEDU.VM.Tests.csproj", "{61614B42-85A2-448F-AC51-3BEE287D63A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1197DFF2-B068-41C1-9452-AB923E92EFF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1197DFF2-B068-41C1-9452-AB923E92EFF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1197DFF2-B068-41C1-9452-AB923E92EFF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1197DFF2-B068-41C1-9452-AB923E92EFF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61614B42-85A2-448F-AC51-3BEE287D63A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61614B42-85A2-448F-AC51-3BEE287D63A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61614B42-85A2-448F-AC51-3BEE287D63A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61614B42-85A2-448F-AC51-3BEE287D63A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
