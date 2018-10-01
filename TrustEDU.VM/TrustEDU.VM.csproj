@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageVersion>0.0.1</PackageVersion>
+    <Authors>TrustEDU Network</Authors>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageLicenseUrl>https://github.com/TrustEDU/trustedu-vm/blob/master/LICENSE</PackageLicenseUrl>
+    <Owners>TrustEDU Network</Owners>
+    <PackageProjectUrl>https://github.com/TrustEDU/trustedu-vm</PackageProjectUrl>
+    <Summary>The SmartContract Virtual Machine for the TrustEDU Network Blockchain.</Summary>
+    <Title>TrustEDU.VM</Title>
+    <Description>The SmartContract Virtual Machine for the TrustEDU Network Blockchain.</Description>
+    <PackageId>TrustEDU.VM</PackageId>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -15,5 +26,8 @@
     <Folder Include="Base\Types\" />
     <Folder Include="Base\Helpers\" />
     <Folder Include="Runtime\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
   </ItemGroup>
 </Project>
