@@ -13,6 +13,7 @@
     <Title>TrustEDU.VM</Title>
     <Description>The SmartContract Virtual Machine for the TrustEDU Network Blockchain.</Description>
     <PackageId>TrustEDU.VM</PackageId>
+    <ReleaseVersion>0.0.1</ReleaseVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
